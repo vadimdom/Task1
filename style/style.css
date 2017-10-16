@@ -170,11 +170,8 @@ li a:hover{
 .wrapper{
     background-color: #6db33f;
     padding: 60px 0;
-}
-
-.span-container{
-    width: 33.3%;
-    float: left;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .icon-container{
