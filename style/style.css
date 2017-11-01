@@ -17,12 +17,12 @@ body{
 a.spring-logo:hover {
     background: url("../img/logo.png") -1px -48px no-repeat;
 }
-.main-menu{
+.navigation{
     float: right;
     background-color: #34302d;
 }
 
-.main-menu li{
+.navigation li{
     display: inline-block;
 }
 
@@ -48,12 +48,12 @@ li a:hover{
     color: white;
 }
 @media screen and (min-width: 700px) and (max-width:955px) {
-    .main-menu{
+    .navigation{
         width: 100%;
         float: right;
         background-color: #34302d;
     }
-    .main-menu ul{
+    .navigation ul{
         float: right;
     }
 }
@@ -92,14 +92,14 @@ li a:hover{
     a.spring-logo:hover {
         background: url("../img/logo.png") -1px -48px no-repeat;
     }
-    .main-menu{
+    .navigation{
         display: block;
         width: 100%;
         margin-top: 50px;
         background-color: #34302d;
     }
     
-    .main-menu li{
+    .navigation li{
         display: inline-block;
     }
     
@@ -167,7 +167,7 @@ li a:hover{
     color: #f1f1f1;
     display: inline-block;
 }
-.wrapper{
+.green-area{
     background-color: #6db33f;
     padding: 60px 0;
     padding-right: 10%;
@@ -222,8 +222,9 @@ li a:hover{
 footer{
     color: #eee;
     padding: 30px 0;
+    padding-left: 30px;
 }
-.mynavbar{
+.footer-navigation{
     min-height: 40px;
 }
 
@@ -248,10 +249,8 @@ li{
     padding: 0 17px;
 }
 
-.foot{
+.footer-link{
     padding:0;
-}
-.container .row a.foot{
     display: inline;
     color: #6db33f;
 }
