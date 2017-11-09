@@ -2,27 +2,26 @@
 <html>
 
 <head>
-    <!-- Тег meta для указания кодировки -->
     <meta charset="utf-8">
     <title>Task 1</title>
-   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-   <!-- <LINK rel=stylesheet type="text/css" href=style/bootstrap.min.css>-->
     <LINK rel=stylesheet type="text/css" href=style/bootstrap.css>
     <LINK rel=stylesheet type="text/css" href=style/style.css>
 </head>
 <body>
 <header>
 <div class="logo">
-    <a class="spring-logo" href="/"><span></span></a>
+    <a class="spring-logo" href="/"></a>
 </div>
-<ul class="main-menu">
-    <li><a class="hov" href="/docs">DOCS</a></li>
-    <li><a class="hov" href="/guides">GUIDES</a></li>
-    <li><a class="hov" href="/projects">PROJECTS</a></li>
-    <li><a class="hov" href="/blog">BLOG</a></li>
-    <li><a class="hov" href="/questions">QUESTIONS</a></li>
+<div class="navigation">
+<ul>
+    <li><a href="/docs">DOCS</a></li>
+    <li><a href="/guides">GUIDES</a></li>
+    <li><a href="/projects">PROJECTS</a></li>
+    <li><a href="/blog">BLOG</a></li>
+    <li><a href="/questions">QUESTIONS</a></li>
     <li><a class="sea" href="/search">S</a></li>
 </ul>
+</div>
 </header>   
      <section class="billboard">
         <div class="billboard--container">
@@ -45,10 +44,9 @@
         </div>
     </section>
 
-    <section class="wrapper">
-        <div class="container">
+    <section class="green-area">
           <div class="row">
-            <div class="span-container">
+            <div class="col-md-4">
               <div class="icon-container">
                 <div class="icon-build"></div>
               </div>
@@ -57,7 +55,7 @@
               Write clean, testable code against the infrastructure components of your choice and accomplish any task – without re-inventing the wheel.
               </div>
             </div>
-            <div class="span-container">
+            <div class="col-md-4">
                <div class="icon-container">
                   <div class="icon-run"></div>
               </div>
@@ -66,7 +64,7 @@
               Keep it portable – Spring-based apps run anywhere the JVM does. Deploy standalone, in an app server, on a Cloud or all of the above.
               </div>
             </div>
-            <div class="span-container">
+            <div class="col-md-4">
               <div class="icon-container">
                 <div class="icon-rest"></div>
               </div>
@@ -76,26 +74,18 @@
               </div>
             </div>
         </div>
-    </div>
     </section>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="span12">
-                    <div class="navbar">
-                            <ul class="nav">
-                                <li><a href="/team">Team</a></li>
-                                <li><a href="/services">Services</a></li>
-                                <li><a href="/tools">Tools</a></li>
-                                <li><a href="/store">Store</a></li>
-                            </ul>
-                    </div>
-                </div>
-                © 2017<a class="ssylka" href="/Pivotal Software">Pivotal Software</a>, Inc. All Rights Reserved.<a class="ssylka" href="/Terms of Use">Terms of Use</a>,<a class="ssylka" href="/Privacy">Privacy</a> and<a class="ssylka" href="/Trademark Guidelines">Trademark Guidelines</a>
-            </div>
+    <footer>
+         <div class="footer-navigation">
+            <ul class="nav">
+                <li><a href="/team">Team</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/tools">Tools</a></li>
+                <li><a href="/store">Store</a></li>
+            </ul>                
         </div>
+         © 2017 <a class="footer-link" href="/Pivotal Software">Pivotal Software</a>, Inc. All Rights Reserved. <a class="footer-link" href="/Terms of Use">Terms of Use</a>, <a class="footer-link" href="/Privacy">Privacy</a> and <a class="footer-link" href="/Trademark Guidelines">Trademark Guidelines</a>
     </footer>
-    <div class="ending"></div>
 </body>
 </html>
